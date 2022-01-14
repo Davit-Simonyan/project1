@@ -1,0 +1,215 @@
+*{
+    font-family: sans-serif;
+}
+body{
+     background-color: rgb(185, 185, 185);
+
+}
+.wraper{
+    position: relative;
+    display: grid;
+    gap: 10px;
+    ion-icon{
+        color: rgb(0, 128, 96);
+        padding-right: 10px;
+    }
+   
+}
+
+header{
+    background-color: white;
+    grid-row-start: span 2;
+}    
+// @media (min-width: 767px){
+//     .section_1{
+//         width: 100%;
+//         background-size: cover;
+//     }
+// }
+    .section_1{
+            height: 25%;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/avatar_hat.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;         
+            display: flex;
+            align-items: flex-end;
+            h2{
+                padding: 10px;
+                font-weight: lighter;        
+        }
+    }
+    .section_2{
+        padding-left: 10px;
+        height: auto;
+        div{
+            height: auto;
+            opacity: 0.8;
+        }
+    }
+
+
+aside{
+    background-color: white;
+    
+    padding: 20px;
+        h2,p,h1{
+            font-weight: lighter;
+            opacity: 0.8;
+        }
+}
+
+article{
+    background-color: white;
+    padding: 20px;
+        h2,p,h1{
+            font-weight: lighter;
+             opacity: 0.8;
+    }
+}
+.repeat_color{
+    color: rgb(0, 128, 96);
+    span{
+        background-color: rgb(4, 107, 90);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 767px){
+    .wraper{
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(15, 165, 120);
+    width: 100%;
+    height: 20vh;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border: none;
+        button{
+            color: white;
+            background-color: rgb(15, 165, 120);
+            padding: 3px;
+            border-style: none;
+        }
+        p{
+            position: relative;
+        }
+    }
+}
+
+.border_p{
+    font-size: 12px;
+    text-align: center;
+    width: 95%;
+    color: white;
+    border-radius: 10px;
+  
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 90%,
+        rgb(236, 226, 226) 90%,
+        rgb(236, 226, 226) 100%,
+    );
+}
+.border_p1{
+    font-size: 12px;
+    text-align: center;
+    width: 95%;
+    color: white;
+    border-radius: 10px;
+  
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 80%,
+        rgb(236, 226, 226) 80%,
+        rgb(236, 226, 226) 100%,
+    );
+}
+
+.border_p2{
+    font-size: 12px;
+    text-align: center;
+    width: 95%;
+    color: white;
+    border-radius: 10px;
+  
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 75%,
+        rgb(236, 226, 226) 75%,
+        rgb(236, 226, 226) 100%,
+    );
+}
+.border_p3{
+    font-size: 12px;
+    text-align: center;
+    width: 95%;
+    color: white;
+    border-radius: 10px;
+  
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 50%,
+        rgb(236, 226, 226) 50%,
+        rgb(236, 226, 226) 100%,
+    );
+}
+.border_p4::after{
+    content: "";
+    display: block;
+    width: 95%;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(4, 155, 130);
+}
+.border_p5::after{
+    content: "";
+    display: block;
+    width: 95%;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 50%,
+        rgb(236, 226, 226) 50%,
+        rgb(236, 226, 226) 100%,
+    );
+}
+.border_p6::after{
+    content: "";
+    display: block;
+    width: 95%;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: linear-gradient(
+        to right,
+        rgb(4, 155, 130) 0%,
+        rgb(4, 155, 130) 30%,
+        rgb(236, 226, 226) 30%,
+        rgb(236, 226, 226) 100%,
+    );
+}

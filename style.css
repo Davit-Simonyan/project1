@@ -1,0 +1,162 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #b9b9b9;
+}
+.wraper {
+  position: relative;
+  display: grid;
+  gap: 10px;
+}
+.wraper ion-icon {
+  color: #008060;
+  padding-right: 10px;
+}
+header {
+  background-color: white;
+  grid-row-start: span 2;
+}
+.section_1 {
+  height: 25%;
+  width: 100%;
+  background-image: url(https://www.w3schools.com/w3images/avatar_hat.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.section_1 h2 {
+  padding: 10px;
+  font-weight: lighter;
+}
+.section_2 {
+  padding-left: 10px;
+  height: auto;
+}
+.section_2 div {
+  height: auto;
+  opacity: 0.8;
+}
+aside {
+  background-color: white;
+  padding: 20px;
+}
+aside h2,
+aside p,
+aside h1 {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+article {
+  background-color: white;
+  padding: 20px;
+}
+article h2,
+article p,
+article h1 {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.repeat_color {
+  color: #008060;
+}
+.repeat_color span {
+  background-color: #046b5a;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media (min-width: 767px) {
+  .wraper {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #0fa578;
+  width: 100%;
+  height: 20vh;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 5px;
+}
+footer div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+footer div button {
+  color: white;
+  background-color: #0fa578;
+  padding: 3px;
+  border-style: none;
+}
+footer div p {
+  position: relative;
+}
+.border_p {
+  font-size: 12px;
+  text-align: center;
+  width: 95%;
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 90%, #ece2e2 90%, #ece2e2 100%);
+}
+.border_p1 {
+  font-size: 12px;
+  text-align: center;
+  width: 95%;
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 80%, #ece2e2 80%, #ece2e2 100%);
+}
+.border_p2 {
+  font-size: 12px;
+  text-align: center;
+  width: 95%;
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 75%, #ece2e2 75%, #ece2e2 100%);
+}
+.border_p3 {
+  font-size: 12px;
+  text-align: center;
+  width: 95%;
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 50%, #ece2e2 50%, #ece2e2 100%);
+}
+.border_p4::after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: #049b82;
+}
+.border_p5::after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 50%, #ece2e2 50%, #ece2e2 100%);
+}
+.border_p6::after {
+  content: "";
+  display: block;
+  width: 95%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #049b82 0%, #049b82 30%, #ece2e2 30%, #ece2e2 100%);
+}
